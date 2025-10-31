@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Courier Prime", monospace;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center p-8 bg-white bg-white">
+    <div class="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-10 text-center w-full max-w-lg transform hover:scale-105 transition-all duration-300">
+        <div class="mb-6">
+            <div class="text-7xl text-blue-600 mb-4"><i class="fas fa-user-circle"></i></div>
+            <h1 class="text-4xl font-bold text-gray-800"><i class="fas fa-id-card mr-2"></i>User Profile</h1>
+        </div>
+        <div class="space-y-4 text-left">
+            <div class="bg-gradient-to-r from-blue-50 to-purple-50 border-l-4 border-blue-600 p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                <div class="flex items-center">
+                    <i class="fas fa-user text-blue-600 text-xl mr-3"></i>
+                    <span class="font-bold text-gray-700">Name:</span>
+                    <span class="ml-2 text-gray-900 font-semibold">{{.Name}}</span>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-purple-600 p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                <div class="flex items-center">
+                    <i class="fas fa-user-tag text-purple-600 text-xl mr-3"></i>
+                    <span class="font-bold text-gray-700">Surname:</span>
+                    <span class="ml-2 text-gray-900 font-semibold">{{.Surname}}</span>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-pink-50 to-red-50 border-l-4 border-pink-600 p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                <div class="flex items-center">
+                    <i class="fas fa-birthday-cake text-pink-600 text-xl mr-3"></i>
+                    <span class="font-bold text-gray-700">Age:</span>
+                    <span class="ml-2 text-gray-900 font-semibold">{{.Age}}</span>
+                </div>
+            </div>
+        </div>
+        <a href="/"
+            class="mt-8 inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-black rounded-xl px-8 py-4 hover:from-blue-700 hover:to-purple-700 transition-all duration-300 w-full font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            <i class="fas fa-home mr-2"></i>Back to Main Page
+        </a>
+    </div>
+</body>
+
+</html>
