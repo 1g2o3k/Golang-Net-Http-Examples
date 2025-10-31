@@ -41,7 +41,6 @@ A simple web application built with Go's net/http package that displays a direct
 - `user1.go` to `user12.go`: Individual files defining structs and handler functions for each user's profile page.
 - `templates/index.html`: HTML template for the main user directory page.
 - `templates/user1.html` to `templates/user12.html`: HTML templates for individual user profile pages.
-- `TODO.md`: A list of completed tasks related to styling and fixes.
 
 ## Technologies Used
 
