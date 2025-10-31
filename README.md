@@ -25,7 +25,7 @@ A simple web application built with Go's net/http package that displays a direct
    ```
 3. Run the application:
    ```bash
-   go run main.go
+   go run *.go
    ```
 4. Open your browser and navigate to `http://localhost:8080`.
 
