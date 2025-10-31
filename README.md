@@ -1,4 +1,4 @@
-# Donate Buy me a Coffe:
+w# Donate Buy me a Coffe:
 
 https://buymeacoffee.com/gokalp
 
@@ -21,7 +21,7 @@ A simple web application built with Go's net/http package that displays a direct
 2. Clone the repository:
    ```bash
    git clone https://github.com/1g2o3k/Golang-Net-Http-Examples.git
-   cd Golang-Net-Http-Examples.git
+   cd Golang-Net-Http-Examples
    ```
 3. Run the application:
    ```bash
