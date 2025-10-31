@@ -20,8 +20,8 @@ A simple web application built with Go's net/http package that displays a direct
 1. Ensure you have Go installed on your system (version 1.16 or later recommended).
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourrepo.git
-   cd yourrepo
+   git clone https://github.com/1g2o3k/Golang-Net-Http-Examples.git
+   cd Golang-Net-Http-Examples.git
    ```
 3. Run the application:
    ```bash
